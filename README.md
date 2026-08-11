@@ -43,6 +43,7 @@ The class design follows the Composition design principle, wrapping a doubly lin
 ## ⚡ Utility & Information
 
 | Operation | Method Signature | Description |
+| :--- | :--- | :--- |
 | Size | int Size() |	Returns the total number of elements currently in the queue. |
 | Is Empty | bool IsEmpty() |	Checks whether the queue contains no elements. |
 | Print | void Print() | Outputs all queue elements sequentially to standard output. |
@@ -51,6 +52,7 @@ The class design follows the Composition design principle, wrapping a doubly lin
 ## ⚡ Extended / Index-Based Operations
 
 | Operation | Method Signature | Description |
+| :--- | :--- | :--- |
 | Get Item | T GetItem(long long Index) |	Retrieves the value stored at a specific 0-based index. |
 | Update Item |	void UpdateItem(long long Index, T Value) |	Updates the value of an existing node at a specific index. |
 | Insert After | void InsertAfter(long long Index, T Value) |	Inserts a new node directly after the specified index. |
