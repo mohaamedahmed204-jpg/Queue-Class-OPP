@@ -8,6 +8,8 @@ This project demonstrates Object-Oriented Programming (OOP) concepts, generic pr
 
 The class design follows the Composition design principle, wrapping a doubly linked list data structure to manage element lifecycle and positioning efficiently.
 
+```text
+
 +-------------------------------------------------------+
 |                    clsMyQueue<T>                      |
 +-------------------------------------------------------+
@@ -27,6 +29,7 @@ The class design follows the Composition design principle, wrapping a doubly lin
 +-------------------------------------------------------+
 |                 clsDblLinkedList<T>                   |
 +-------------------------------------------------------+
+```
 
 ## ⚡ Core Operations
 
