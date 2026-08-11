@@ -35,30 +35,30 @@ The class design follows the Composition design principle, wrapping a doubly lin
 
 | Operation | Method Signature | Description |
 | :--- | :--- | :--- |
-| Enqueue | void push(T Item) | Adds an element to the back of the queue and updates the internal back state. |
-| Dequeue | void pop() | Removes the front element from the queue. Resets _Back if the queue becomes empty. |
-| Front Access | T front() | Retrieves the element at the front of the queue without removing it. |
-| Back Access | T back() | Retrieves the element at the end of the queue. |
+| Enqueue | `void push(T Item)` | Adds an element to the back of the queue and updates the internal back state. |
+| Dequeue | `void pop()` | Removes the front element from the queue. Resets _Back if the queue becomes empty. |
+| Front Access | `T front()` | Retrieves the element at the front of the queue without removing it. |
+| Back Access | `T back()` | Retrieves the element at the end of the queue. |
 
 ## ⚡ Utility & Information
 
 | Operation | Method Signature | Description |
 | :--- | :--- | :--- |
-| Size | int Size() |	Returns the total number of elements currently in the queue. |
-| Is Empty | bool IsEmpty() |	Checks whether the queue contains no elements. |
-| Print | void Print() | Outputs all queue elements sequentially to standard output. |
-| Clear |	void Clear() | Clears all elements from the queue and resets its structure. |
+| Size | `int Size()` |	Returns the total number of elements currently in the queue. |
+| Is Empty | `bool IsEmpty()` |	Checks whether the queue contains no elements. |
+| Print | `void Print()` | Outputs all queue elements sequentially to standard output. |
+| Clear |	`void Clear()` | Clears all elements from the queue and resets its structure. |
 
 ## ⚡ Extended / Index-Based Operations
 
 | Operation | Method Signature | Description |
 | :--- | :--- | :--- |
-| Get Item | T GetItem(long long Index) |	Retrieves the value stored at a specific 0-based index. |
-| Update Item |	void UpdateItem(long long Index, T Value) |	Updates the value of an existing node at a specific index. |
-| Insert After | void InsertAfter(long long Index, T Value) |	Inserts a new node directly after the specified index. |
-| Insert Front | void InsertAtFront(T Value) | Inserts an element directly at the head of the list. |
-| Insert Back |	void InsertAtBack(T Value) | Inserts an element directly at the tail of the list. |
-| Reverse |	void Reverse() | Inverts the node sequence inside the underlying linked list. |
+| Get Item | `T GetItem(long long Index)` |	Retrieves the value stored at a specific 0-based index. |
+| Update Item |	`void UpdateItem(long long Index, T Value)` |	Updates the value of an existing node at a specific index. |
+| Insert After | `void InsertAfter(long long Index, T Value)` |	Inserts a new node directly after the specified index. |
+| Insert Front | `void InsertAtFront(T Value)` | Inserts an element directly at the head of the list. |
+| Insert Back |	`void InsertAtBack(T Value)` | Inserts an element directly at the tail of the list. |
+| Reverse |	`void Reverse()` | Inverts the node sequence inside the underlying linked list. |
 
 ## 💡 Key Concepts Demonstrated
 
