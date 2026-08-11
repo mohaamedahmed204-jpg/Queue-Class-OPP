@@ -8,28 +8,27 @@ This project demonstrates Object-Oriented Programming (OOP) concepts, generic pr
 
 The class design follows the Composition design principle, wrapping a doubly linked list data structure to manage element lifecycle and positioning efficiently.
 
-```text
 
-+-------------------------------------------------------+
-|                    clsMyQueue<T>                      |
-+-------------------------------------------------------+
-| - _MyList : clsDblLinkedList<T>                       |
-| - _Back   : T                                         |
-+-------------------------------------------------------+
-| + push(Item)           + pop()                        |
-| + front()              + back()                       |
-| + Size()               + IsEmpty()                    |
-| + GetItem(index)       + UpdateItem(index, value)     |
-| + InsertAfter(...)     + Reverse()                    |
-| + InsertAtFront(...)   + InsertAtBack(...)            |
-| + Clear()              + Print()                      |
-+-------------------------------------------------------+
-                           |
-                           v  (Wraps)
-+-------------------------------------------------------+
-|                 clsDblLinkedList<T>                   |
-+-------------------------------------------------------+
-```
+    +-------------------------------------------------------+
+    |                    clsMyQueue<T>                      |
+    +-------------------------------------------------------+
+    | - _MyList : clsDblLinkedList<T>                       |
+    | - _Back   : T                                         |
+    +-------------------------------------------------------+
+    | + push(Item)           + pop()                        |
+    | + front()              + back()                       |
+    | + Size()               + IsEmpty()                    |
+    | + GetItem(index)       + UpdateItem(index, value)     |
+    | + InsertAfter(...)     + Reverse()                    |
+    | + InsertAtFront(...)   + InsertAtBack(...)            |
+    | + Clear()              + Print()                      |
+    +-------------------------------------------------------+
+                               |
+                               v  (Wraps)
+    +-------------------------------------------------------+
+    |                 clsDblLinkedList<T>                   |
+    +-------------------------------------------------------+
+
 
 ## ⚡ Core Operations
 
