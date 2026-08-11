@@ -80,4 +80,4 @@ Structure: Header-only class implementation (#pragma once)
 
 ## 📝 Topics (Hashtags):
 
-cpp data-structures queue doubly-linked-list templates oop cpp11
+`cpp` `data-structures` `queue` `doubly-linked-list` `templates` `oop` `cpp11`
