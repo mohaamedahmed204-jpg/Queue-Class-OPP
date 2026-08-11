@@ -3,15 +3,14 @@
 
 using namespace std;
 
-int main()
-{
-    clsMyQueue <short> MyQueue;
+int main() {
+    clsMyQueue <int> MyQueue;
 
-    MyQueue.Push(10);
-    MyQueue.Push(20);
-    MyQueue.Push(30);
-    MyQueue.Push(40);
-    MyQueue.Push(50);
+    MyQueue.Push(100);
+    MyQueue.Push(200);
+    MyQueue.Push(300);
+    MyQueue.Push(400);
+    MyQueue.Push(500);
 
     cout << "\nQueue :\n";
     MyQueue.Print();
@@ -49,7 +48,6 @@ int main()
     MyQueue.Clear();
     cout << "\n\Queue after Clear() :\n";
     MyQueue.Print();
-
-    system("pause>0");
+    
     return 0;
 }
