@@ -69,7 +69,7 @@ Data Abstraction & Encapsulation: Internal properties like _MyList and _Back are
 
 Custom Data Structure Engineering: Deep understanding of pointer manipulation, node traversal, dynamic memory management, and FIFO (First-In, First-Out) queue semantics.
 
-## 🛠️ Technologies
+## 🛠️ Technologies.        
 
 Language: C++ (C++11 or higher recommended)
 
