@@ -71,11 +71,11 @@ Custom Data Structure Engineering: Deep understanding of pointer manipulation, n
 
 ## 🛠️ Technologies.        
 
-Language: C++ (C++11 or higher recommended)
+* Language: C++ (C++11 or higher recommended)
 
-Paradigm: Object-Oriented Programming (OOP) & Generic Programming
+* Paradigm: Object-Oriented Programming (OOP) & Generic Programming
 
-Structure: Header-only class implementation (#pragma once)
+* Structure: Header-only class implementation (#pragma once)
 
 ## 📝 Topics (Hashtags):
 
