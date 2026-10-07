@@ -61,13 +61,13 @@ The class design follows the Composition design principle, wrapping a doubly lin
 
 ## 💡 Key Concepts Demonstrated
 
-Generic Programming (Templates): Supports any data type (int, std::string, custom objects) dynamically at compile time using template <class T>.
+* Generic Programming (Templates): Supports any data type (int, std::string, custom objects) dynamically at compile time using template <class T>.
 
-Composition over Inheritance: clsMyQueue embeds clsDblLinkedList internally rather than inheriting from it, providing clean encapsulation.
+* Composition over Inheritance: clsMyQueue embeds clsDblLinkedList internally rather than inheriting from it, providing clean encapsulation.
 
-Data Abstraction & Encapsulation: Internal properties like _MyList and _Back are kept protected/private, exposing only clean public member functions.
+* Data Abstraction & Encapsulation: Internal properties like _MyList and _Back are kept protected/private, exposing only clean public member functions.
 
-Custom Data Structure Engineering: Deep understanding of pointer manipulation, node traversal, dynamic memory management, and FIFO (First-In, First-Out) queue semantics.
+* Custom Data Structure Engineering: Deep understanding of pointer manipulation, node traversal, dynamic memory management, and FIFO (First-In, First-Out) queue semantics.
 
 ## 🛠️ Technologies.        
 
